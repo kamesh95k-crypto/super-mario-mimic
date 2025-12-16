@@ -4,11 +4,11 @@ import { Platform } from './Platform';
 export class Player {
     public x: number;
     public y: number;
-    public width: number = 32;
+    public width: number = 100;
     public height: number = 100;
     public velocityX: number = 0;
     public velocityY: number = 0;
-    public speed: number = 200;
+    public speed: number = 1000;
     public jumpPower: number = 600;
     public isJumping: boolean = false;
     public isGrounded: boolean = false;
