@@ -5,7 +5,7 @@ export class Player {
     public x: number;
     public y: number;
     public width: number = 32;
-    public height: number = 32;
+    public height: number = 100;
     public velocityX: number = 0;
     public velocityY: number = 0;
     public speed: number = 200;
